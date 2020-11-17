@@ -31,6 +31,17 @@ You can download the git tool from [here](https://git-scm.com/).
   upstream        https://github.com/AtharvaAmrutkar0307/Algorithm-Visualizer.git (fetch)
   upstream        https://github.com/AtharvaAmrutkar0307/Algorithm-Visualizer.git (push)
   ```
+  
+- To fetch latest changes from the upstream : 
+    ```bash
+    $ git fetch upstream
+    ```
+    
+- To merge these changes : 
+  ```bash
+  $ git merge upstream/develop
+  ```
+  
 ## Contributing
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 - Please make sure to update tests as appropriate.
